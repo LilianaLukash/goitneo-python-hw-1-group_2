@@ -20,7 +20,7 @@ def phone_username(args, contacts):
     return contacts[username]    
 
 def all(contacts):
-    # return and print all contacts and phobnes
+    # return all contacts and phones
     contacts_list = [f"{name} {phone}" for name, phone in contacts.items()]
     contacts_line = "\n".join(contacts_list)
     return contacts_line
